@@ -32,6 +32,13 @@ td{
 .szekcio1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.szekcio1,  section{
+    background-color: lightgrey;
+}
+main{
+    grid-template-columns: 1fr 1fr;
 }
 
 

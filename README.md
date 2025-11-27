@@ -4,5 +4,5 @@ https://www.figma.com/design/1BvEc81n8xN2Im3KN7oHzp/Untitled?node-id=0-1&t=IMtuH
 Linkek külső oldalakra:
 https://share.google/D2X0NeY9qXACBuCXP
 
-fedezd fel:
+Látnivalók:
 https://hu.bergfex.com/sommer/turin/touren/wandern/

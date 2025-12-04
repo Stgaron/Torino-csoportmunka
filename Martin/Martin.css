@@ -1,6 +1,29 @@
 body{
 background-image:url(/kepek/DonBosco.jpg) ;
+background-size: cover;
 
 
+}
+p{
+color: white;
 
+
+}
+
+
+#tortenet{
+background-color: black;
+opacity: 50%;
+}
+#elsolepesek{
+background-color: black;
+opacity: 50%;
+}
+#rend{
+background-color: black;
+opacity: 50%;
+}
+#terjedes{
+background-color: black;
+opacity: 50%;
 }

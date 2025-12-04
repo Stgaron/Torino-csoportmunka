@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fafafa;
+}
+
+
+
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 15px 30px;
+    background: white;
+    border-bottom: 2px solid #ddd;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+nav a:hover {
+    color: #0077cc;
+}
+
+
+.olasz_zarandoklat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 30px;
+}
+
+.olasz_zarandoklat img {
+    width: 30px;
+}
+
+.olasz_zarandoklat h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+
+.kep_savoya {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.kep_savoya img {
+    width: 60%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+
+article h2 {
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;   
+    padding-left: 0;
+    text-decoration: underline;
+    
+}
+
+
+.torino_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 40px;
+    padding: 20px 30px 60px 30px;
+}
+
+
+.torino_card {
+    background: #e6e6e6;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    transition: 0.3s ease;
+    border: 4px solid bisque; 
+    display: flex;
+    flex-direction: column;
+    height: 100%;       
+}
+
+
+.torino_card img {
+    width: 100%;
+    height: 300px;         
+    object-fit: cover;    
+    border-radius: 20px 20px 0 0;
+}
+
+
+.torino_szoveg {
+    background: #f5f5f5;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    flex-grow: 1;         
+}
+
+.torino_szoveg p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+
+@media (max-width: 600px) {
+    .torino_grid {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .kep_savoya img {
+        width: 90%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}

@@ -4,4 +4,20 @@ body{
     background-size: cover;
     
     
+    
+}
+
+div {
+    background-color: black;
+    opacity: 50%;
+    border-radius: 50px;
+    
+}
+
+p {
+    color: white;
+}
+
+h1{
+    color: white;
 }

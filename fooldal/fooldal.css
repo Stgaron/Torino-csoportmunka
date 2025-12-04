@@ -1,12 +1,27 @@
 article{
     background-image: url(../kepek/image\ 1.png );
     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    color: white;
+    position: relative;
+}
+
+article > a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
 }
 main{
     width: 95%;
 }
 *{
     box-sizing: border-box;
+}
+body{
+    margin: auto;
 }
 img{
     max-width: 100%;
@@ -31,7 +46,30 @@ td{
 }
 .szekcio1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;    
 }
-
-
+section{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 50px;
+}
+body{
+    grid-template-columns: 1fr 1fr;
+}
+nav > a {
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;   
+}
+nav {
+    text-align: center;
+}
+.fooldal {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.szamalkkep{
+    width: 5pc;
+}

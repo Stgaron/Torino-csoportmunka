@@ -6,37 +6,48 @@ article{
     padding: 40px;      
     position: relative;
     background-position: center;
+    border-radius: 30px;
+    min-height: 350px;
+    margin: 10px;
+    
 }
 article > b{
+    font-size: 40px;
     position: absolute;
-    bottom: 300px;
-    left: 40px
+    width: 20%;
+    bottom: 50%;
+    
 }
 article > p{
+    font-size: 18px;
+    width: 20%;
     position: absolute;
-    bottom: 250px;
-}
-b{
-    font-size: 50px;
+    bottom: 33%;  
+    font-weight: bold;  
 }
 article > a{
     text-decoration: none;
     background-color: white;
     color: black;
-    padding: 10px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 5px;
     position: absolute;
-    bottom: 20px;
-    left: 40px;
-}
-main{
-    width: 95%;
+    bottom: 15%;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 *{
     box-sizing: border-box;
 }
 body{
     margin: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 img{
     max-width: 100%;
@@ -45,8 +56,9 @@ img{
 table{
     border-collapse: collapse;
     text-align: center;
-    width: 500px;
-    height: 300px;
+    margin: auto;
+    width: 30em;
+    height: 20em;
 }
 tr,td,th{
     border: 5px solid white;
@@ -65,18 +77,28 @@ td{
 }
 section{
     background-color: whitesmoke;
-    padding: 10px;
-    margin: 50px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    background-color: lightgrey;
+    height: 20em;
 }
 body{
     grid-template-columns: 1fr 1fr;
+    
 }
 nav > a {
     text-decoration: none;
-    padding: 5px;
+    padding: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin: 10px;
     border: 2px solid black;
     border-radius: 50px;
     color: black;   
+    font-weight: bold;
 }
 nav {
     text-align: center;
@@ -86,5 +108,50 @@ nav {
     grid-template-columns: 3fr 1fr;
 }
 .szamalkkep{
-    width: 5pc;
+    width: 10em;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+@media screen and (max-width:700px) {
+
+    .fooldal {
+        grid-template-columns: 1fr;   
+    }
+
+    article {
+        padding: 25px;
+        min-height: 280px;
+    }
+
+    article > b {
+        font-size: 32px;
+        width: 100%;
+        bottom: 60%;
+    }
+
+    article > p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+
+    section {
+        height: auto;
+    }
+
+    table {
+        width: 100%;   
+        font-size: 14px;
+    }
+
+    nav > a {
+        margin: 5px;
+        display: inline-block;
+    }
+
+    .szamalkkep {
+        width: 20%;
+        margin: 10px;
+    }
 }

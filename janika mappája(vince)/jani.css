@@ -16,13 +16,18 @@ div {
     margin-right: 60%;
     margin-top: 100px;
     margin-left: 50px;
-    padding: 30px;
+    padding: 40px;
+    width: 45%;
 }
 
 p {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 h1{
     color: white;
+}
+
+html{
+    width: 100%;
 }

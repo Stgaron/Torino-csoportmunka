@@ -1,29 +1,30 @@
 body{
-background-image:url(/kepek/DonBosco.jpg) ;
+background-image:url(/kepek/cukiDonBosco.jpg) ;
 background-size: cover;
 
 
 }
 p{
 color: white;
+opacity: 1;
+
+}
 
 
+div{
+ background-color: black;
+    border-radius: 50px;
+    opacity: 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 60%;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 40px;
+    width: 35%;
+}
+h1{
+    color: white;
 }
 
 
-#tortenet{
-background-color: black;
-opacity: 50%;
-}
-#elsolepesek{
-background-color: black;
-opacity: 50%;
-}
-#rend{
-background-color: black;
-opacity: 50%;
-}
-#terjedes{
-background-color: black;
-opacity: 50%;
-}

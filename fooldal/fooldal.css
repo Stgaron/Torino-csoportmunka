@@ -12,17 +12,17 @@ article{
     
 }
 article > b{
-    font-size: 40px;
+    font-size: 55px;
     position: absolute;
-    width: 20%;
-    bottom: 50%;
+    width: 50%;
+    bottom: 40%;
     
 }
 article > p{
     font-size: 18px;
-    width: 20%;
+    width: 40%;
     position: absolute;
-    bottom: 33%;  
+    bottom: 25%;  
     font-weight: bold;  
 }
 article > a{
@@ -34,7 +34,7 @@ article > a{
     padding-right: 30px;
     border-radius: 5px;
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -57,11 +57,11 @@ table{
     border-collapse: collapse;
     text-align: center;
     margin: auto;
-    width: 30em;
+    width: 80%;
     height: 20em;
 }
 tr,td,th{
-    border: 5px solid white;
+    border: 5px solid rgb(39, 34, 34);
     padding: 5px;
 }
 th{
@@ -75,7 +75,7 @@ td{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;    
 }
-section{
+section {
     background-color: whitesmoke;
     padding: 5px;
     margin: 20px;
@@ -84,6 +84,11 @@ section{
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
     background-color: lightgrey;
     height: 20em;
+    width: 90%;
+}
+section > img{
+    width: 80%;
+    
 }
 body{
     grid-template-columns: 1fr 1fr;
@@ -105,7 +110,7 @@ nav {
 }
 .fooldal {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 12fr 8fr;
 }
 .szamalkkep{
     width: 10em;
@@ -113,7 +118,7 @@ nav {
     top: 5px;
     left: 5px;
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
 
     .fooldal {
         grid-template-columns: 1fr;   
@@ -153,5 +158,11 @@ nav {
     .szamalkkep {
         width: 20%;
         margin: 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .szekcio1{
+        display: grid;
+        grid-template-columns: 1fr;    
     }
 }

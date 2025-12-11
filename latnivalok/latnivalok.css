@@ -1,0 +1,19 @@
+.olaszkep {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.navosvalami{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%
+}
+.olaszkep > img{
+    width: 10%;
+    margin: 0;
+    padding: 0;
+}

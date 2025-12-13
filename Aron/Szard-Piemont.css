@@ -44,3 +44,23 @@ h3{
     text-align: center;
     font-size: 30px;
 }
+@media screen and (max-width:1200px) {
+    article{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    nav{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    #szoveg{
+        left: 8%;
+        top: 0.4%;
+    }
+}
+@media screen and (max-width:1200px) {
+    #szoveg{
+        left: 8%;
+        top: 0.000001%;
+    }
+}

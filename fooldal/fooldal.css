@@ -44,10 +44,8 @@ article > a{
 }
 body{
     margin: auto;
-    height: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 img{
     max-width: 100%;
@@ -83,12 +81,22 @@ section {
     box-shadow: 0 4px 8px rgba(32, 31, 31, 0.1);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
     background-color: lightgrey;
-    height: 20em;
     width: 90%;
 }
 section > img{
-    width: 80%;
+    width: 50%;
+    margin-left: 20%;
     
+}
+section > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+h3{
+    font-size: 25px;
+}
+section > h3,p{
+    text-align: center;
 }
 body{
     grid-template-columns: 1fr 1fr;

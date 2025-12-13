@@ -2,6 +2,41 @@ body{
     background-image: url(../kepek/Piemont-Depositphotos_381440640_S.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
-    padding: 0;
+    padding: 0%;
+    margin: 0%;
+}
+*{
+    box-sizing: border-box;
+}
+#terkep{
+width: 5%;
+
+
+}
+#szoveg{
+    position: absolute;
+    top: 0.0001%;
+    left: 1.7%;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 20px;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1%;
+    margin: 2%;
+}
+.nev, .letrejott, .egyseg {
+    background-color: rgba(19, 19, 19, 0.7);
+    color: white;
 }

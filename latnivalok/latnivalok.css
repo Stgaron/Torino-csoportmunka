@@ -1,17 +1,23 @@
 * {
     box-sizing: border-box;
 }
-
+section > img{
+    max-width: 100%;
+}
 html, body {
     width: 100%;
-    margin: 0;
-    padding: 0;
+    padding: 0%;
+    margin: 0%;
 }
 
 body {
     background-color: white;
 }
-
+#szoveg{
+    position: absolute;
+    top: 0.0001%;
+    left: 2%;
+}
 
 
 nav > a {
@@ -23,10 +29,39 @@ nav{
     background-color: rgb(247, 247, 247); 
     padding: 20px; 
     display: grid; 
-    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr; 
     font-size: 20px; 
 }
 
 #terkep {
     width: 5%;
+}
+h1{
+    margin: 1%;
+    letter-spacing: 0.5px;
+    font-size: 40px;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4%;
+}
+section{
+    margin: 50px;
+    background-color: gray;
+}
+section > a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    border-radius: 50px;
+}
+main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+aside{
+    font-size: 50px;
+    color: rgb(88, 87, 87);
 }

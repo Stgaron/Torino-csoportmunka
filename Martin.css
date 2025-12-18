@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: white;
+}
+#szoveg{
+    position: absolute;
+    top: 0.0001%;
+    left: 2%;
+}
+
+
+nav > a {
+    text-decoration: none;
+    color: black;
+}
+
+nav{ 
+    background-color: rgb(247, 247, 247); 
+    padding: 20px; 
+    display: grid; 
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr; 
+    font-size: 20px; 
+}
+
+#terkep {
+    width: 5%;
+}
+body{
+background-image:url(DonBosco.jpg) ;
+background-size: cover;
+
+
+}
+p{
+color: white;
+opacity: 1;
+
+}
+
+
+div{
+ background-color: black;
+    border-radius: 50px;
+    opacity: 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 60%;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 40px;
+    width: 35%;
+}
+h1{
+    color: white;
+}
+
+

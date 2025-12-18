@@ -1,8 +1,13 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #fafafa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../kepek/fak.jpg);
+    background-size: cover;          
+    background-position: center;     
+    background-attachment: scroll;
+
+
 }
 
 
@@ -42,6 +47,8 @@ nav a:hover {
 .olasz_zarandoklat h1 {
     font-size: 28px;
     margin: 0;
+    color: white;
+    font-style: italic;
 }
 
 
@@ -63,6 +70,8 @@ article h2 {
     text-align: center;   
     padding-left: 0;
     text-decoration: underline;
+    color: white;
+    font-style: italic;
     
 }
 
@@ -75,7 +84,7 @@ article h2 {
 }
 
 
-.torino_card {
+.torino_savoya {
     background: #e6e6e6;
     border-radius: 20px;
     overflow: hidden;
@@ -88,11 +97,12 @@ article h2 {
 }
 
 
-.torino_card img {
+.torino_savoya img {
     width: 100%;
     height: 300px;         
-    object-fit: cover;    
-    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.4s ease;
 }
 
 
@@ -108,11 +118,12 @@ article h2 {
     margin: 0;
     font-size: 15px;
     line-height: 1.6;
+    color: black;
 }
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 875px) {
     .torino_grid {
         grid-template-columns: 1fr;
         padding: 10px;

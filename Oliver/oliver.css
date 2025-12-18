@@ -78,7 +78,7 @@ article h2 {
 
 .torino_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 40px;
     padding: 20px 30px 60px 30px;
 }

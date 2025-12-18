@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url(../kepek/fak.jpg);
+    background-image: url(fak.jpg);
     background-size: cover;          
     background-position: center;     
     background-attachment: scroll;

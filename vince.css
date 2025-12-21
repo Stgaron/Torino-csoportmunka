@@ -43,16 +43,16 @@ html{
     box-sizing: border-box;
 }
 #terkep{
-width: 5%;
-
-
+    width: 5%;
 }
+
 #szoveg{
     position: absolute;
     top: 0.0001%;
     left: 1.7%;
     color: black;
 }
+
 nav > a{
     text-decoration: none;
     color: black;
@@ -66,23 +66,34 @@ nav{
     font-size: 20px;
 }
 
-@media screen and (max-width: 768px){
-
-    div{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        padding: 20px;
-    }
-
-    img{
-        max-width: 100%;
-    }
-
-    nav{
+@media screen and (max-width: 850px){
+    
+    div {
+        background-color: rgba(19, 19, 19, 0.7);
+        border-radius: 50px;
+        display: grid;
         grid-template-columns: 1fr;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        padding: 6%;
+        font-size: large;
+    }
+
+    img {
+        max-width: 100%;
+        border-radius: 10%;
+    }
+
+
+    nav {
+        background-color: rgb(247, 247, 247);
+        padding: 3%;
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 120%;
         text-align: center;
     }
+
 }
